@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Cocosw.BottomSheet.Xamarin.Android</id>
+    <version>1.1.0.0</version>
+    <title>Cocosw.BottomSheet for Xamarin.Android</title>
+    <authors>Fabio Nuno</authors>
+    <owners>Fabio Nuno</owners>
+    <projectUrl>https://github.com/fabionuno/Cocosw.BottomSheet-Xamarin.Android</projectUrl>
+    <licenseUrl>https://github.com/fabionuno/Cocosw.BottomSheet-Xamarin.Android/blob/master/LICENSE.md</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/fabionuno/Cocosw.BottomSheet-Xamarin.Android/master/art/nugeticon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C# bindings for Cocosw BottomSheet library v1.1.0</description>
+    <releaseNotes>
+      Supports Cocosw BottomSheet version 1.1.0;
+    </releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>BottomSheet, material, xamarin, xamarin android</tags>
+    <dependencies>
+      <dependency id="Xamarin.Android.Support.v4" version="22.2.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="BottomSheet-Xamarin.Android/bin/Release/Cocosw.BottomSheet-Xamarin.Android.*" target="lib\MonoAndroid" />
+  </files>
+</package>
