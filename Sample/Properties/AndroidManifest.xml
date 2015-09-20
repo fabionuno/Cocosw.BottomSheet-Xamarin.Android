@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="bottomsheet.sample">
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22" />
+	<application android:theme="@style/AppTheme" android:label="@string/bottomsheet" android:supportsRtl="true" android:icon="@mipmap/ic_launcher">
+	</application>
+</manifest>

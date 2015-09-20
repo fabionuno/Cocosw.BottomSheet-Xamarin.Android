@@ -1,0 +1,50 @@
+﻿<metadata>
+	<remove-node path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='remove' and count(parameter)=1 and parameter[1][@type='int']]" />
+  	<remove-node path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BuildConfig']" />
+
+
+  	<attr path="/api/package[@name='com.cocosw.bottomsheet']" name="managedName">Cocosw.BottomSheetActions</attr>
+
+	<!-- All packages parameters -->
+	<attr path="/api/package//parameter[@type='android.util.AttributeSet']" name="name">attrs</attr>
+	<attr path="/api/package//parameter[@type='android.content.Context']" name="name">context</attr>
+
+	<!--- BottomSheet.Builder Class -->
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/constructor[@name='BottomSheet.Builder' and count(parameter)=1 and parameter[1][@type='android.app.Activity']]/parameter[@name='p0' and @type='android.app.Activity']" name="name">context</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/constructor[@name='BottomSheet.Builder' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='int']]/parameter[@name='p1']" name="name">defStyleAttr</attr>
+
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='icon' and count(parameter)=1 and parameter[1][@type='android.graphics.drawable.Drawable']]/parameter[@name='p0']" name="name">icon</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='icon' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0']" name="name">iconRes</attr>
+
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='limit' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0']" name="name">limitRes</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='listener' and count(parameter)=1 and parameter[1][@type='android.content.DialogInterface.OnClickListener']]/parameter[@name='p0']" name="name">listener</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='listener' and count(parameter)=1 and parameter[1][@type='android.view.MenuItem.OnMenuItemClickListener']]/parameter[@name='p0']" name="name">listener</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='setOnDismissListener' and count(parameter)=1 and parameter[1][@type='android.content.DialogInterface.OnDismissListener']]/parameter[@name='p0']" name="name">listener</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0']" name="name">menuRes</attr>
+
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='android.graphics.drawable.Drawable'] and parameter[3][@type='java.lang.CharSequence']]/parameter[@name='p0']" name="name">id</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='android.graphics.drawable.Drawable'] and parameter[3][@type='java.lang.CharSequence']]/parameter[@name='p1']" name="name">iconRes</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='android.graphics.drawable.Drawable'] and parameter[3][@type='java.lang.CharSequence']]/parameter[@name='p2']" name="name">text</attr>
+
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p0']" name="name">id</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p1']" name="name">iconRes</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p2']" name="name">textRes</attr>
+
+
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]/parameter[@name='p0']" name="name">id</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]/parameter[@name='p1']" name="name">textRes</attr>
+
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.CharSequence']]/parameter[@name='p0']" name="name">id</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='sheet' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.CharSequence']]/parameter[@name='p1']" name="name">text</attr>
+
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='title' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0']" name="name">textRes</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet.Builder']/method[@name='title' and count(parameter)=1 and parameter[1][@type='java.lang.CharSequence']]/parameter[@name='p0']" name="name">text</attr>
+
+	<!--- BottomSheet Class -->
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheet']/method[@name='setCanceledOnSwipeDown' and count(parameter)=1 and parameter[1][@type='boolean']]/parameter[@name='p0']" name="name">cancel</attr>
+
+
+	<!--- BottomSheetHelper Class -->
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheetHelper']/method[@name='shareAction' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.content.Intent']]/parameter[@name='p0']" name="name">activity</attr>
+	<attr path="/api/package[@name='com.cocosw.bottomsheet']/class[@name='BottomSheetHelper']/method[@name='shareAction' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.content.Intent']]/parameter[@name='p1']" name="name">intent</attr>
+</metadata>
