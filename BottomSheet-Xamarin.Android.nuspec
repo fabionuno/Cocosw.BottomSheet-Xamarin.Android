@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Cocosw.BottomSheet.Xamarin.Android</id>
-    <version>1.1.0.0</version>
+    <version>1.1.1.0</version>
     <title>Cocosw.BottomSheet for Xamarin.Android</title>
     <authors>Fabio Nuno</authors>
     <owners>Fabio Nuno</owners>
@@ -17,10 +17,10 @@
     <copyright>Copyright 2015</copyright>
     <tags>BottomSheet, material, xamarin, xamarin android</tags>
     <dependencies>
-      <dependency id="Xamarin.Android.Support.v4" version="22.2.1.0" />
+      <dependency id="Xamarin.Android.Support.v4" version="23.2.1" />
     </dependencies>
   </metadata>
   <files>
-    <file src="BottomSheet-Xamarin.Android/bin/Release/Cocosw.BottomSheet-Xamarin.Android.*" target="lib\MonoAndroid" />
+    <file src="BottomSheet-Xamarin.Android/bin/Release/Cocosw.BottomSheet-Xamarin.Android.*" target="lib/MonoAndroid" />
   </files>
 </package>
